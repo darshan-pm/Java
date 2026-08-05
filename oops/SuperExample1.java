@@ -14,7 +14,7 @@ class Car extends Vehicle {
     int numOfDoors;
 
     public Car(String brand, int Speed, int numOfDoors) {
-        super(brand, Speed);
+        super(brand, Speed);`
         this.numOfDoors = numOfDoors;
         System.out.println("Car constructor!");
 
